@@ -13,15 +13,6 @@ import pandas as pd
 import numpy as np
 import pickle
 
-
-# # 모델에 들어갈 데이터 만들기 위한 20 퍼센타일 값 구분
-# with open('C:\\Xing_api\\Program_Garden\\bins_dict', 'rb') as file:
-#     bins_dict = pickle.load(file)
-#
-# # 만들어놓은 모델 AdaBoost
-# with open('C:\\Xing_api\\Program_Garden\\classifier', 'rb') as file:
-#     classifier = pickle.load(file)
-
 with open('rf', 'rb') as file:
     rf = pickle.load(file)
 

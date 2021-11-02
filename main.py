@@ -31,6 +31,7 @@ if __name__ == '__main__':
             stock_return['return'] = stock_return['close'] / stock_return['close'].shift(1)
             c1 = (stock_return['kosdaq_return'] < 1)
             c2 = (stock_return['return'] > 1)
+
             stock_return['win_market'] = np.where((c1 & c2), 1, 0)
             return_all = pd.concat([return_all, stock_return], axis=0)
 

@@ -4,11 +4,6 @@ import bs4
 import datetime
 import warnings
 warnings.filterwarnings('ignore')
-import json
-from IPython.display import clear_output
-import glob
-from sklearn.ensemble import AdaBoostClassifier
-from sklearn.tree import DecisionTreeClassifier
 import pandas as pd
 import numpy as np
 import pickle

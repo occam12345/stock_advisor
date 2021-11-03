@@ -1,5 +1,5 @@
 
-import kq_stocks as kq
+import stock_data.kq_stocks as kq
 import pandas as pd
 import numpy as np
 import streamlit as st
